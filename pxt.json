@@ -1,0 +1,37 @@
+{
+    "name": "bluetooth control robot",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "bluetooth": "*",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
